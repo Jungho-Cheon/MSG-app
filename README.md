@@ -1,7 +1,7 @@
 # 미식한 고독가 (Team MSG)
 
 <div>
-<img width="600" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/MSG+MockUp.png"> 
+<img width="1000" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/MSG+MockUp.png"> 
 </div>
 
 > ## STACK

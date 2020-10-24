@@ -46,7 +46,7 @@
 # 레시피 취향 분석
 
 <div>
-<img width="350" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/taste_check_page.gif"/>
+<img width="350" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/taste_page_low.gif"/>
 
 > ### 하루에 최대 3번 요리한다는 가정을 하면..
 >

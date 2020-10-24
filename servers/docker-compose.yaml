@@ -1,0 +1,33 @@
+version: '3'
+services:
+    msg-nginx:
+        image: msg-nginx:latest
+        ports:
+            - 80:80
+        volumes:
+            - ./nginx/conf.d:/etc/nginx/conf.d
+            - ./nginx/logs:/logs/   
+        depends_on:
+            - msg-receipt-analysis
+
+    msg-receipt-analysis:
+        image: msg-receipt-analysis
+        expose:
+            - 9999
+        volumes:
+            - ./recipet_logs/:/app/receipt_logs/
+        depends_on:
+            - msg-search-ingredient
+
+    msg-search-ingredient:
+        image: msg-search-ingredient
+        expose:
+            - 9998
+        volumes:
+            - ./search_logs/:/app/search_logs/
+
+    msg-recipe-recommend:
+        image: msg-recipe-recommend
+        expose:
+            - 8080
+ 

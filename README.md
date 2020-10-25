@@ -58,6 +58,10 @@
 
 # 레시피 취향 분석
 
+<div>
+<img width="350" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/taste_page_low.gif"/>
+</div>
+
 > ### 하루에 최대 3번 요리한다는 가정을 하면..
 >
 > -   취향 분석을 위한 데이터가 부족하기 때문에 부가적으로 데이터 수집을 위한 기능이 필요했습니다.

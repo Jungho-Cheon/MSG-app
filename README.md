@@ -80,7 +80,7 @@
 ## 영수증 분석 기능
 
 <div>
-<img width="350" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/receipt_analysis_2.gif"/>
+<img width="350" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/receipt_analysis_page.gif"/>
 </div>
 <br/>
 

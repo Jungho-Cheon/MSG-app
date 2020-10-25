@@ -2,8 +2,10 @@
 
 <div>
 <img width="1000" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/MSG+MockUp.png"> 
-</div>
-
+</div>  
+<br/>
+<br/>
+  
 > ## STACK
 >
 > -   APP : Flutter
@@ -15,16 +17,25 @@
 > -   Crawling : python (BeautifulSoup4, Selenium)
 > -   ML(NLP) : python (Sklearn, Gensim etc.)
 
+<br/>
+<br/>
+
 > ## APP Icon
 >
 > <div>
 > <img width="50" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/appstore.png"/> 
 > </div>
 
+<br/>
+<br/>
+
 # 주요 기능
 
-> -   영수증 분석을 통해 간편한 식재료 관리
-> -   취향 분석을 통한 레시피 추천
+-   영수증 분석을 통해 간편한 식재료 관리
+-   취향 분석을 통한 레시피 추천
+
+<br/>
+<br/>
 
 # 인앱 화면 캡처
 
@@ -42,17 +53,23 @@
 <img width="250" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/capture3.png"/> 
 <img width="250" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/capture2.png"/>
 </div>
+<br/>
+<br/>
 
 # 레시피 취향 분석
 
 <div>
 <img width="350" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/taste_page_low.gif"/>
+</div>
 
 > ### 하루에 최대 3번 요리한다는 가정을 하면..
 >
 > -   취향 분석을 위한 데이터가 부족하기 때문에 부가적으로 데이터 수집을 위한 기능이 필요했습니다.
 > -   추가적으로 사용자가 조회한 레시피 정보 또한 DB에 저장하여 추천 알고리즘에 이용했습니다.
->     > 레시피는 공공데이터를 이용했습니다.
+> - 레시피는 공공데이터를 이용했습니다.
+
+<br/>
+<br/>
 
 # 서버 구성도
 
@@ -62,11 +79,16 @@
 
 ## 영수증 분석 기능
 
--   영수증 분석을 위해 S3 버킷에 사용자 별로 스토리지를 관리합니다.
--   사용자가 영수증 사진을 찍으면 해당 사용자의 버킷 스토리지에 영수증 사진이 업로드 됩니다.
--   사진의 주소를 통해 Naver Clova의 OCR API를 호출하고 반환된 결과 값을 통해 영수증 발급 날짜, 식재료, 총 가격 등 정보를 추출합니다.
--   사용자는 분석된 결과를 모바일 앱에서 즉시 확인 가능하고 잘못된 내용을 수정할 수 있습니다.
--   최종적으로 등록하기를 누를 때 각 정보들은 DynamoDB에 저장되어 사용자가 날짜별로 조회할 수 있도록 합니다.
+<div>
+<img width="350" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/receipt_analysis.gif"/>
+</div>
+
+
+> -  영수증 분석을 위해 S3 버킷에 사용자 별로 스토리지를 관리합니다.
+> -  사용자가 영수증 사진을 찍으면 해당 사용자의 버킷 스토리지에 영수증 사진이 업로드 됩니다.
+> -  사진의 주소를 통해 Naver Clova의 OCR API를 호출하고 반환된 결과 값을 통해 영수증 발급 날짜, 식재료, 총 가격 등 정보를 추출합니다.
+> -  사용자는 분석된 결과를 모바일 앱에서 즉시 확인 가능하고 잘못된 내용을 수정할 수 있습니다.
+> -  최종적으로 등록하기를 누를 때 각 정보들은 DynamoDB에 저장되어 사용자가 날짜별로 조회할 수 있도록 합니다.
 
 ## 레시피 분석을 위한 데이터 셋 구축
 

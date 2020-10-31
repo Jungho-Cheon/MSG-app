@@ -26,7 +26,11 @@
 > <img width="50" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/appstore.png"/> 
 > </div>
 
+## APP Download
+[Play Store (Android)](https://play.google.com/store/apps/details?id=com.somamsg.msgapp)
 <br/>
+[App Store (iOS)](https://apps.apple.com/us/app/%EB%AF%B8%EC%8B%9D%ED%95%9C%EA%B3%A0%EB%8F%85%EA%B0%80/id1535910346)
+
 <br/>
 
 # 주요 기능
@@ -96,9 +100,12 @@
 
 -   특정 사용자에게 특정 레시피를 추천하기 위해 사용자의 취향을 기반으로 레시피를 선별할 수 있어야 합니다.
 -   자연어 처리와 머신러닝 알고리즘을 응용하기 위해 공공데이터 보다 많은 데이터를 수집해야 했고, BeautifulSoup4, Selenium을 이용한 크롤러를 만들어 학습용 레시피 DB를 구축했습니다.
--   레시피의 기본 정보(설명, 재료, 만드는 방식, 국가 등)를 ML을 위한 전처리를 수행한 뒤 추가적으로 추천의 기준이 될 수 있는 특징를 선정했습니다.
--   레시피의 **난이도**를 새로운 특징으로 선정하고 레시피의 설명에서 특정 키워드가 나올 경우 또는 레시피의 단계 수에 따라 라벨링을 진행했습니다.
--   LightBGM 알고리즘을 통해 새롭게 추가되는 레시피 내용으로 난이도를 예측할 수 있는 모델을 생성하였습니다.
+-   크롤링한 레시피를 바탕으로 word2vec 모델을 만들고 레시피들을 K-means Clustering 해 본 결과 의미있는 군집화가 일어났음을 확인할 수 있었습니다.
+-   단순한 분석에도 의미있는 결과를 보였기 때문에 레시피 추천 서비스의 실효성을 예측할 수 있었고, 가장 많이 쓰이고 성능이 준수한 Collaborative Filter를 고려했습니다.
+-   하지만 초기에 성능이 잘 나오지 않는 Cold-Start 문제점이 심각했기에 방향을 바꿔 Item2Vec 모델을 구상했습니다.
+-   서비스를 제공할 레시피들에 대해 Doc2Vec 모델을 미리 만들어두고, 사용자가 메인 페이지를 로드할 때 선호하는 레시피 정보를 바탕으로 User Vector를 생성했습니다.
+-   또한, 난이도 Category를 이용해 단순한 Item2Vec 모델을 넘어서 유저의 레벨에 맞는 난이도의 레시피를 추천하고자 했습니다.
+-   이렇게 생성된 레시피 Doc2Vec과 User Vector에 대해서 Cosine Similarity를 계산해 유저가 가장 선호할 만한 레시피들을 추천합니다.
 
 <br/>
 

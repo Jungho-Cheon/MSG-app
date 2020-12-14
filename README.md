@@ -1,7 +1,7 @@
 # 미식한 고독가 (Team MSG)
 
 <div>
-<img width="1000" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/MSG_title_image.png"> 
+<img width="1000" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/68747470733a2f2f73332e61702d6e6f727468656173742d322e616d617a6f6e6177732e636f6d2f736f6d616d73672e636f6d2f4d53472b4d6f636b55702e706e67.png"> 
 </div>  
 <br/>
 <br/>
@@ -23,13 +23,13 @@
 > ## APP Icon
 >
 > <div>
-> <img width="50" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/appstore.png"/> 
+> <img width="50" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/68747470733a2f2f73332e61702d6e6f727468656173742d322e616d617a6f6e6177732e636f6d2f736f6d616d73672e636f6d2f61707073746f72652e706e67.png"/> 
 > </div>
 
 ## APP Download
-[Play Store (Android)](https://play.google.com/store/apps/details?id=com.somamsg.msgapp)
+<del>[Play Store (Android)](https://play.google.com/store/apps/details?id=com.somamsg.msgapp)</del>
 <br/>
-[App Store (iOS)](https://apps.apple.com/us/app/%EB%AF%B8%EC%8B%9D%ED%95%9C%EA%B3%A0%EB%8F%85%EA%B0%80/id1535910346)
+<del>[App Store (iOS)](https://apps.apple.com/us/app/%EB%AF%B8%EC%8B%9D%ED%95%9C%EA%B3%A0%EB%8F%85%EA%B0%80/id1535910346)</del>
 
 <br/>
 
@@ -44,8 +44,8 @@
 # 인앱 화면 캡처
 
 <div>
-<img width="250" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/capture4.png"/> 
-<img width="250" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/capture9.png"/>
+<img width="250" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/Simulator+Screen+Shot+-+iPhone+11+-+2020-10-18+at+09.50.07.png"/> 
+<img width="250" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/Simulator+Screen+Shot+-+iPhone+11+-+2020-10-18+at+09.49.56.png"/>
 <img width="250" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/homecapture.png"/> 
 </div>
 <div>
@@ -55,7 +55,8 @@
 </div>
 <div>
 <img width="250" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/capture3.png"/> 
-<img width="250" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/capture2.png"/>
+<img width="250" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/Simulator+Screen+Shot+-+iPhone+11+-+2020-10-18+at+09.50.20.png"/>
+<img width="250" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/Simulator+Screen+Shot+-+iPhone+11+-+2020-10-18+at+09.50.36.png"/>
 </div>
 <br/>
 <br/>
@@ -63,7 +64,7 @@
 # 레시피 취향 분석
 
 <div>
-<img width="350" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/taste_page_low.gif"/>
+<img width="350" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/animation-1.gif"/>
 </div>
 
 > ### 하루에 최대 3번 요리한다는 가정을 하면..
@@ -78,13 +79,13 @@
 # 서버 구성도
 
 <div>
-<img width="600" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/server_architecture.png"/>
+<img width="600" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/68747470733a2f2f73332e61702d6e6f727468656173742d322e616d617a6f6e6177732e636f6d2f736f6d616d73672e636f6d2f7365727665725f6172636869746563747572652e706e67.png"/>
 </div>
 
 ## 영수증 분석 기능
 
 <div>
-<img width="350" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/receipt_analysis_page.gif"/>
+<img width="350" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/animation-2.gif"/>
 </div>
 <br/>
 

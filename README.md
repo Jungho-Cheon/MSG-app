@@ -1,7 +1,7 @@
 # 미식한 고독가 (Team MSG)
 
 <div>
-<img width="1000" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/68747470733a2f2f73332e61702d6e6f727468656173742d322e616d617a6f6e6177732e636f6d2f736f6d616d73672e636f6d2f4d53472b4d6f636b55702e706e67.png"> 
+<img width="1000" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/title_mockup.png"> 
 </div>  
 <br/>
 <br/>
@@ -46,15 +46,8 @@
 <div>
 <img width="250" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/Simulator+Screen+Shot+-+iPhone+11+-+2020-10-18+at+09.50.07.png"/> 
 <img width="250" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/Simulator+Screen+Shot+-+iPhone+11+-+2020-10-18+at+09.49.56.png"/>
-<img width="250" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/homecapture.png"/> 
 </div>
 <div>
-<img width="250" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/capture7.png"/>
-<img width="250" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/capture6.png"/>
-<img width="250" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/capture1.png"/>  
-</div>
-<div>
-<img width="250" src="https://s3.ap-northeast-2.amazonaws.com/somamsg.com/capture3.png"/> 
 <img width="250" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/Simulator+Screen+Shot+-+iPhone+11+-+2020-10-18+at+09.50.20.png"/>
 <img width="250" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/Simulator+Screen+Shot+-+iPhone+11+-+2020-10-18+at+09.50.36.png"/>
 </div>
@@ -63,10 +56,7 @@
 
 # 레시피 취향 분석
 
-<div>
-<img width="350" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/animation-1.gif"/>
-</div>
-
+![animation-2](https://user-images.githubusercontent.com/61958795/102055058-9f2e6380-3e2d-11eb-9985-de363e8f2661.gif)
 > ### 하루에 최대 3번 요리한다는 가정을 하면..
 >
 > -   취향 분석을 위한 데이터가 부족하기 때문에 부가적으로 데이터 수집을 위한 기능이 필요했습니다.
@@ -84,9 +74,7 @@
 
 ## 영수증 분석 기능
 
-<div>
-<img width="350" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/animation-2.gif"/>
-</div>
+![animation-1](https://user-images.githubusercontent.com/61958795/102055089-a6ee0800-3e2d-11eb-8b88-6d9df947c65f.gif)
 <br/>
 
 > -  영수증 분석을 위해 S3 버킷에 사용자 별로 스토리지를 관리합니다.

@@ -1,8 +1,7 @@
 # 미식한 고독가 (Team MSG)
 
-<div>
-<img width="1000" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/title_mockup.png"> 
-</div>  
+![팀소개](https://user-images.githubusercontent.com/61958795/106404202-61d17400-6475-11eb-914a-a4dd14ab8c9e.png)
+
 <br/>
 <br/>
   
@@ -21,11 +20,11 @@
 <br/>
 
 > ## APP Icon
->
-> <div>
-> <img width="50" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/68747470733a2f2f73332e61702d6e6f727468656173742d322e616d617a6f6e6177732e636f6d2f736f6d616d73672e636f6d2f61707073746f72652e706e67.png"/> 
-> </div>
+> 
+> ![180](https://user-images.githubusercontent.com/61958795/106404238-904f4f00-6475-11eb-87ee-4e1509819109.png)
 
+
+  
 ## APP Download
 <del>[Play Store (Android)](https://play.google.com/store/apps/details?id=com.somamsg.msgapp)</del>
 <br/>
@@ -44,12 +43,12 @@
 # 인앱 화면 캡처
 
 <div>
-<img width="250" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/Simulator+Screen+Shot+-+iPhone+11+-+2020-10-18+at+09.50.07.png"/> 
-<img width="250" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/Simulator+Screen+Shot+-+iPhone+11+-+2020-10-18+at+09.49.56.png"/>
+<img src="https://user-images.githubusercontent.com/61958795/106404320-c7256500-6475-11eb-8ad6-26a6ce42abdf.png" width="350"/>
+<img src="https://user-images.githubusercontent.com/61958795/106404321-c7bdfb80-6475-11eb-8dd4-3acba99ffcd9.png" width="350"/>
 </div>
 <div>
-<img width="250" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/Simulator+Screen+Shot+-+iPhone+11+-+2020-10-18+at+09.50.20.png"/>
-<img width="250" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/Simulator+Screen+Shot+-+iPhone+11+-+2020-10-18+at+09.50.36.png"/>
+<img src="https://user-images.githubusercontent.com/61958795/106404313-c1c81a80-6475-11eb-8d46-4e48c49cd3e1.png" width="350"/>
+<img src="https://user-images.githubusercontent.com/61958795/106404315-c42a7480-6475-11eb-8012-ee773033ab80.png" width="350"/>
 </div>
 <br/>
 <br/>
@@ -69,7 +68,8 @@
 # 서버 구성도
 
 <div>
-<img width="600" src="https://msg-project.s3.ap-northeast-2.amazonaws.com/68747470733a2f2f73332e61702d6e6f727468656173742d322e616d617a6f6e6177732e636f6d2f736f6d616d73672e636f6d2f7365727665725f6172636869746563747572652e706e67.png"/>
+<img width="736" alt="server_architecture" src="https://user-images.githubusercontent.com/61958795/106404665-c8a35d00-6476-11eb-8c49-4e3d8d647924.png">
+
 </div>
 
 ## 영수증 분석 기능
